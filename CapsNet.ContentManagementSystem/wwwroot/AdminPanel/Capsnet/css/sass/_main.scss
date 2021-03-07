@@ -1,0 +1,10 @@
+﻿@import 'components/_root.scss';
+@import 'components/_header.scss';
+
+body {
+    background-color: var(--body-color);
+}
+
+.header {
+    @include default-header();
+}

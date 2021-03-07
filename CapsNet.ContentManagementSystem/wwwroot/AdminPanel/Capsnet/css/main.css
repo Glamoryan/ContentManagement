@@ -1,0 +1,19 @@
+:root {
+  --theme-color: #153b7e;
+  --theme-back-color: #F3F3FB;
+  --body-color: #F3F6FD;
+}
+
+body {
+  background-color: var(--body-color);
+}
+
+.header {
+  height: 10vh;
+  min-height: 80px;
+  background-color: var(--theme-back-color);
+  border-bottom: 4px solid var(--theme-color);
+  box-shadow: 0 2px 8px var(--theme-color);
+}
+
+/*# sourceMappingURL=main.css.map */
