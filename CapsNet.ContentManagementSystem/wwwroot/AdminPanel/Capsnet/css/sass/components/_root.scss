@@ -1,5 +1,9 @@
-﻿:root {
-    --theme-color: #153b7e;
-    --theme-back-color: #F3F3FB;
-    --body-color: #F3F6FD;
+﻿$primary-theme-color: #153b7e;
+$primary-theme-back-color: #F3F3FB;
+$primary-theme-body-color: #F3F6FD;
+
+:root {
+    --theme-color: #{$primary-theme-color};
+    --theme-back-color: #{$primary-theme-back-color};
+    --body-color: #{$primary-theme-body-color};
 }

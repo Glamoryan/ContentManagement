@@ -36,6 +36,12 @@ namespace CapsNet.ContentManagementSystem
                     areaName:"Administrator",
                     pattern:"admin/{controller=Dashboard}/{action=Index}"
                     );
+
+                endpoints.MapAreaControllerRoute(
+                    name: "default",
+                    areaName: "Administrator",
+                    pattern: "{controller=Dashboard}/{action=Index}"
+                    );
             });
         }
     }

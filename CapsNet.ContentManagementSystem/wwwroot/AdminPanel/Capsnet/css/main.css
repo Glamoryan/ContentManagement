@@ -1,10 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap");
 :root {
   --theme-color: #153b7e;
   --theme-back-color: #F3F3FB;
   --body-color: #F3F6FD;
 }
 
+* {
+  font-family: "Mulish", sans-serif;
+}
+
 body {
+  min-height: 100vh;
   background-color: var(--body-color);
 }
 
@@ -14,6 +20,60 @@ body {
   background-color: var(--theme-back-color);
   border-bottom: 4px solid var(--theme-color);
   box-shadow: 0 2px 8px var(--theme-color);
+}
+
+.sidebar-menu {
+  position: fixed;
+  width: 60px;
+  height: 100%;
+  background-color: var(--theme-color);
+  transition: 0.5s;
+  overflow: hidden;
+}
+.sidebar-menu:hover {
+  width: 300px;
+}
+.sidebar-menu ul {
+  position: absolute;
+  top: 0;
+  left: -30px;
+  width: 100%;
+  color: #fff;
+}
+.sidebar-menu ul li {
+  position: relative;
+  width: 100%;
+  list-style: none;
+}
+.sidebar-menu ul li:hover {
+  background: #5b76a5;
+}
+.sidebar-menu ul li a {
+  position: relative;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+}
+.sidebar-menu ul li a .menu-icon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.sidebar-menu ul li a .menu-icon .fa {
+  font-size: 24px;
+}
+.sidebar-menu ul li a .menu-title {
+  position: relative;
+  display: block;
+  padding: 0 10px;
+  height: 60px;
+  line-height: 60px;
+  text-align: start;
+  white-space: nowrap;
 }
 
 /*# sourceMappingURL=main.css.map */

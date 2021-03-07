@@ -36,3 +36,4 @@ C:\Users\Xsabr\source\repos\CapsNet.ContentManagementSystem\CapsNet.ContentManag
 C:\Users\Xsabr\source\repos\CapsNet.ContentManagementSystem\CapsNet.ContentManagementSystem\obj\Debug\net5.0\Razor\Areas\Administrator\Views\Shared\_AdminLayout.cshtml.g.cs
 C:\Users\Xsabr\source\repos\CapsNet.ContentManagementSystem\CapsNet.ContentManagementSystem\obj\Debug\net5.0\Razor\Areas\Administrator\Views\_ViewStart.cshtml.g.cs
 C:\Users\Xsabr\source\repos\CapsNet.ContentManagementSystem\CapsNet.ContentManagementSystem\obj\Debug\net5.0\Razor\Areas\Administrator\Views\Shared\_Header.cshtml.g.cs
+C:\Users\Xsabr\source\repos\CapsNet.ContentManagementSystem\CapsNet.ContentManagementSystem\obj\Debug\net5.0\Razor\Areas\Administrator\Views\Shared\_Sidebar.cshtml.g.cs

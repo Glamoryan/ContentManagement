@@ -1,10 +1,22 @@
-﻿@import 'components/_root.scss';
+﻿@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap');
+
+@import 'components/_root.scss';
 @import 'components/_header.scss';
+@import 'components/_sidebar.scss';
+
+* {
+    font-family: 'Mulish', sans-serif;
+}
 
 body {
+    min-height:100vh;
     background-color: var(--body-color);
 }
 
 .header {
     @include default-header();
+}
+
+.sidebar-menu {
+    @include default-sidebar-menu();
 }
